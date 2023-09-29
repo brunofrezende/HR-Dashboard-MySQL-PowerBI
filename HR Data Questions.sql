@@ -116,7 +116,8 @@ FROM(
 ORDER BY year ASC;
 
 -- 11. What is the tenure distribution for each department?
-
-
-
+SELECT department, round(avg(datediff(termdate, hire_date)/365),0) AS avg_tenure
+FROM hr
+WHERE termdate <= curdate() AND termdate<> '0000-00-00' AND age >= 18
+GROUP BY department;
 
