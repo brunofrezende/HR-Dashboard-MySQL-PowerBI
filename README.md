@@ -1,5 +1,7 @@
 # HR-Dashboard-MySQL-PowerBI
 
+![HR Employee Report-1](https://github.com/brunofrezende/HR-Dashboard-MySQL-PowerBI/assets/81274688/ca26eec6-7b3d-4583-873d-30f04344785d)
+
 ## Data Used
 
 **Data** - HR Data with over 22000 rows from the year 2000 to 2020
